@@ -1,8 +1,8 @@
 # Site settings
 name: JC Blog
 email: jianchen319@gmail.com
-author: J C
-url: http://www.google.com
+author: JC
+url: www.linkedin.com/in/jianchen96
 resume_site: http://www.google.com
 github: https://github.com/iamjianchen/
 baseurl: ''
@@ -17,7 +17,7 @@ paginate: 10
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-github_username: luoyan35714
+github_username: iamjianchen
 
 # Build settings
 markdown: kramdown
