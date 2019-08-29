@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  OOP Lab 1: Insfructure Setup
+title:  OOP Insfructure Setup
 date:   2019-08-28 13:07:00 -0500
 categories: Rice University
 tag: Courses
