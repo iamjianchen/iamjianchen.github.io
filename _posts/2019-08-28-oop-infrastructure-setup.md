@@ -2,7 +2,7 @@
 layout: post
 title:  OOP Insfructure Setup
 date:   2019-08-28 13:07:00 -0500
-categories: Rice University
+categories: RiceU
 tag: Courses
 ---
 

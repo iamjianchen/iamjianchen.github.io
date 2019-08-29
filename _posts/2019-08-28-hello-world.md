@@ -2,8 +2,8 @@
 layout: post
 title:  Hello World!
 date:   2019-08-28 09:40:00 -0500
-categories: document
-tag: helloworld
+categories: HelloWorld
+tag: HelloWorld
 ---
 
 * content
