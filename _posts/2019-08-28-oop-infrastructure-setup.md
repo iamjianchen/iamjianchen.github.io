@@ -33,12 +33,16 @@ The new downloaded JDK is located at:
 
 What I do next is have my JAVA_HOME and PATH point to the new installation. Open Terminal and input:
 > export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.4.jdk/Contents/Home
+
 > export PATH=$JAVA_HOME/bin:$PATH
 
 Then check Java version again. 
 > jiandembp:~ jianchen$ java -version
+
 > java version "11.0.4" 2019-07-16 LTS
+
 > Java(TM) SE Runtime Environment 18.9 (build 11.0.4+10-LTS)
+
 > Java HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.4+10-LTS, mixed mode)
 
 Done!
@@ -56,15 +60,21 @@ I download the Apache Maven file from its website and put it under /Users/jianch
 Then I have MAVEN_HOME and PATH point to the new installation:
 
 > export MAVEN_HOME=/Users/jianchen/apache-maven-3.6.1
+
 > export PATH=$PATH:$MAVEN_HOME/bin
 
 Then I check:
 
 > JiandeMacBook-Pro:~ jianchen$ mvn --version
+
 > Apache Maven 3.6.1 (d66c9c0b3152b2e69ee9bac180bb8fcc8e6af555; 2019-04-04T14:00:29-05:00)
+
 > Maven home: /Users/jianchen/apache-maven-3.6.1
+
 > Java version: 1.8.0_211, vendor: Oracle Corporation, runtime: /Library/Java/JavaVirtualMachines/jdk1.8.0_211.jdk/Contents/Home/jre
+
 > Default locale: en_US, platform encoding: UTF-8
+
 > OS name: "mac os x", version: "10.14.6", arch: "x86_64", family: "mac"
 
 Done!
@@ -91,6 +101,7 @@ Open IntelliJ. Click "Check out from Version Control" --> "Git" on the welcome s
 
 (If using command line instead of INtelliJ, use 
 > git --version
+
 > git checkout https://github.com/RiceGradOOCourse/lab1-iamjianchen.git)
 
 Then I find there are there functions to complete so there are three TODO comments. The lab is to output "Hello, World!" on my Chrome browser.
